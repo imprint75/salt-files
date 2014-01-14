@@ -1,4 +1,4 @@
-salt_files
+salt-files
 ==========
 
-salt_files
+salt-files
