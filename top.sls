@@ -4,3 +4,4 @@ base:
         - memcache
         - nginx
         - python
+        - mysql
