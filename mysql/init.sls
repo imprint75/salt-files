@@ -6,7 +6,7 @@ mysql-server:
       - MySQL-python
   service:
     - running
-    - name: mysqld
+    - name: mysql
     - enable: True
     - require:
       - pkg: mysql-server
@@ -15,4 +15,4 @@ mysql-server:
     - name: root
     - password: beautiful
     - require:
-      - service: mysqld
+      - service: mysql
