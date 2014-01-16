@@ -3,7 +3,7 @@ mysql-server:
     - installed
     - pkgs:
       - mysql-server
-      - MySQL-python
+      - python-mysqldb
   service:
     - running
     - name: mysql

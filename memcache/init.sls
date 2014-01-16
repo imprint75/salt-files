@@ -5,7 +5,7 @@ memcached:
         - name: /etc/memcached.conf
         - source: salt://memcache/memcached.conf
     service.running:
-        - enabled: true
+        - enable: true
         - watch:
             - file: /etc/memcached.conf
 
